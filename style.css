@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+body{
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 55px;  
+
+    
+}
+
+/* .............shared style...... */
+
+/* text related */
+
+.font1{
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: white;
+}
+.font2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.font3{
+    font-size: 1.2rem;
+}
+.font4{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.button{
+    margin-top: 30px;
+}
+
+.btn-primary{
+    width:220px;
+height:60px;
+color: #ffffff;
+font-weight: 600;
+font-size: 1.2rem;
+padding: 16px 30px 16px 40px;
+gap: 10px;
+border-radius: 42px ;
+opacity: 0px;
+background: #E6533C;
+border: none;
+margin-right: 15px;
+}
+.btn-primary2{
+    width:220px;
+    height:60px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 16px 30px 16px 40px;
+    gap: 10px;
+    border-radius: 42px ;
+    opacity: 0px;
+    background-color:#000000;
+    border: 2px solid white;
+
+}
+
+
+/* .....header...... */
+/* header{
+    background-color: #202020;
+} */
+
+/* ...........navbar style.......... */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 3rem;
+    font-size: 1.12rem;
+    color: #ffffff;
+    text-align: center;
+
+}
+.nav-links .active{
+text-align: left;
+background: #E6533C;
+padding: 8px 20px 8px 20px;
+border-radius: 46px ;
+opacity: 0px;
+
+
+}
+.logo{
+    font-size: 2.2rem;
+    color: #E6533C;
+    font-weight: 800;
+    font-style: italic;
+}
+.miama{
+   
+    font-family: Miama;
+font-size: 108px;
+font-style: italic;
+font-weight: 400;
+
+line-height: 5px;
+text-align: left;
+
+}
+.hidden{
+    display: non;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-img{
+    margin-left: 100px;
+}
+
+
+
+
+/* ..................media query for small device............... */
+@media  screen and (max-width:576px)  {
+    header, .banner{
+        padding: 1px 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .hidden{
+        display:inline;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
