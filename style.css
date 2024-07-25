@@ -4,7 +4,9 @@
 *{
     list-style: none;
     text-decoration: none;
+    
 }
+
 
 
 
@@ -13,7 +15,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1400px;
+     max-width: 1400px;
     margin: 0 auto;
     background-color: #000000;
     padding-top: 55px; 
@@ -33,15 +35,20 @@ body{
 }
 .font2{
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 900;
 }
 .font3{
     font-size: 1.2rem;
+    font-weight:600;
 }
 .font4{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
 }
+.font5{
+    font-size: 2rem;
+}
+
 .button{
     margin-top: 30px;
 }
@@ -223,8 +230,72 @@ text-align: left;
     .run-img{
       border-radius: 18px;
     }
+    /* ......................BMI section................. */
+    .bmi-title-container{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .table-container{
+        background-color:#222222 ;
+       width:100%;
+       padding: 20px;
+       border-radius: 18px;
+       display: flex;
+       justify-content: space-between;
+    }
+    .bmi-title{
+        margin-bottom: 10px;
+    }
+  
+    .table{
+        border-collapse: collapse;
+    }
+    .table th,td{
+        height: 3rem;
+        width: 15rem;
+       
+        border: 2px solid #383838;
+        
+    }
+    .table td{
+        padding-left: 15px;
+        color: rgba(255, 255, 255, 0.5);
+    }
 
 
+
+
+    /* ...trainer section.......... */
+    .title-container{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .team-title{
+        margin-bottom: 10px;
+    }
+    .trainer-img-container{
+        background-color:#222222;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius: 20px;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    
+    }
+
+        
+    .trainer-img-container img{
+        height: 270px;
+        width: 325px;
+        
+        
+    
+    }
+    .trainer{
+        border-radius: 20px;
+    }
 
 /* ..................media query for small device............... */
 @media  screen and (max-width:576px)  {
@@ -309,9 +380,13 @@ text-align: left;
         padding-left: 15px;
         padding-right: 15px;
     }
+    .run-title{
+        margin-top:0px;
+    }
     .run-img{
         width: 100%;
-       margin-top: 20px;
+       margin-top: 50px;
+       margin-bottom: -20px;
       }
       
 
