@@ -386,11 +386,10 @@ text-align: left;
     /* .............footer section......... */
     footer{
         margin-top: 80px;
+        border: 1px solid #222222;
         padding: 0px 20px 0px 20px;
-    
-        border: 2px solid red;
         background-color:#222222;
-        margin-left: 0px;
+    
     }
     .footer-container{
         display: flex;
@@ -587,4 +586,23 @@ text-align: left;
     background-color: black;
     padding-left: 40px;
 }
+/* footer section */
+.footer-container{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    
+   
+}
+.footer-container ol li{
+    margin-bottom: 15px;
+    
+}
+.foot-box1,.foot-box2,.foot-box3{
+    margin-bottom: 50px;
+}
+.foot-box2-title,.foot-box3-title{
+    margin-bottom: -5px;
+}
+
 }
