@@ -128,12 +128,12 @@ opacity: 0px;
 }
 .miama{
    
-    font-family:Miama;
-font-size: 100px;
+    font-family:'Miama',sans-serif;
+font-size: 4rem;
 font-style: italic;
 font-weight: 400;
 
-line-height: 5px; 
+line-height: 2px; 
 text-align: left;
 
 }
@@ -160,7 +160,7 @@ text-align: left;
 }
 
 .img-logo1{
-    background-color:rgba(67 , 57 , 50, 2) ;
+    background-color:rgba(255 , 255, 255, .2) ;
     height: 90px;
     width: 200px;
     border-radius: 30px;
@@ -177,7 +177,7 @@ text-align: left;
     display: flex; 
     justify-content: center;
     align-items: center;
-    background-color:rgba(67 , 57 , 50, 150);
+    background-color:rgba(255 , 255, 255, .2s);
     height: 90px;
     width: 200px;
     border-radius: 30px;
